@@ -31,31 +31,35 @@ gcc -L/home/ffribeiro/gsl/lib example.o -lgsl -lgslcblas -lm
 
 ```
 
-
+# Configure system path
 
 
 ```
 # The dynamic lib runtime .dll files will be in bin dirs
 # Add the bin directory to PATH environment variable so it can find the .dll files
 
+# for mingw64
 C:\msys64\mingw64\bin
 C:\msys64\usr\bin
-# or
+# for ucrt
 D:\Apps\msys2\ucrt64\bin
 D:\Apps\msys2\usr\bin
 
 # Static libraries
+
+# for mingw64
 C:\msys64\usr\lib
 C:\msys64\mingw64\lib
-# or
+# for ucrt
 D:\Apps\msys2\ucrt64\lib
 D:\Apps\msys2\usr\lib
 
-
 # Header files
+
+# for mingw64
 C:\msys64\usr\include
 C:\msys64\mingw64\include
-# or
+# for ucrt
 D:\Apps\msys2\ucrt64\include
 D:\Apps\msys2\usr\include
 
