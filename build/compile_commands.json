@@ -1,0 +1,22 @@
+[
+{
+  "directory": "D:/gitrepos/c_compile_test/build/app",
+  "command": "D:/Apps/msys2/ucrt64/bin/gcc.exe   -g -o CMakeFiles/inv_mat.dir/inverter.c.obj -c D:/gitrepos/c_compile_test/app/inverter.c",
+  "file": "D:/gitrepos/c_compile_test/app/inverter.c"
+},
+{
+  "directory": "D:/gitrepos/c_compile_test/build/app",
+  "command": "D:/Apps/msys2/ucrt64/bin/gcc.exe   -g -o CMakeFiles/example.dir/example.c.obj -c D:/gitrepos/c_compile_test/app/example.c",
+  "file": "D:/gitrepos/c_compile_test/app/example.c"
+},
+{
+  "directory": "D:/gitrepos/c_compile_test/build/app",
+  "command": "D:/Apps/msys2/ucrt64/bin/gcc.exe   -g -o CMakeFiles/newc.dir/new.c.obj -c D:/gitrepos/c_compile_test/app/new.c",
+  "file": "D:/gitrepos/c_compile_test/app/new.c"
+},
+{
+  "directory": "D:/gitrepos/c_compile_test/build/app",
+  "command": "D:/Apps/msys2/ucrt64/bin/g++.exe   -g -o CMakeFiles/newcpp.dir/new.cpp.obj -c D:/gitrepos/c_compile_test/app/new.cpp",
+  "file": "D:/gitrepos/c_compile_test/app/new.cpp"
+}
+]
