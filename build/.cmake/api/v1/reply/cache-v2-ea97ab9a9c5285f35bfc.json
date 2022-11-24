@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/gitrepos/c_compile_test/build"
+			"value" : "d:/gitrepos/c_compile_test_cmake/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "CXX compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "D:/Apps/msys2/ucrt64/bin/g++.exe"
 		},
 		{
@@ -299,10 +299,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "C compiler"
 				}
 			],
-			"type" : "FILEPATH",
+			"type" : "STRING",
 			"value" : "D:/Apps/msys2/ucrt64/bin/gcc.exe"
 		},
 		{
@@ -587,7 +587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/gitrepos/c_compile_test/build/CMakeFiles/pkgRedirects"
+			"value" : "D:/gitrepos/c_compile_test_cmake/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/gitrepos/c_compile_test"
+			"value" : "D:/gitrepos/c_compile_test_cmake"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1339,7 +1339,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/gitrepos/c_compile_test/build"
+			"value" : "D:/gitrepos/c_compile_test_cmake/build"
 		},
 		{
 			"name" : "Ctemplate_IS_TOP_LEVEL",
@@ -1363,7 +1363,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/gitrepos/c_compile_test"
+			"value" : "D:/gitrepos/c_compile_test_cmake"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_GSL",

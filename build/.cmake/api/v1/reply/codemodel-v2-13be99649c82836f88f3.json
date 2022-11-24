@@ -92,8 +92,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/gitrepos/c_compile_test/build",
-		"source" : "D:/gitrepos/c_compile_test"
+		"build" : "D:/gitrepos/c_compile_test_cmake/build",
+		"source" : "D:/gitrepos/c_compile_test_cmake"
 	},
 	"version" : 
 	{

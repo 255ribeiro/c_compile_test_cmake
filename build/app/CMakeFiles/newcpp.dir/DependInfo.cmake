@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/gitrepos/c_compile_test/app/new.cpp" "app/CMakeFiles/newcpp.dir/new.cpp.obj" "gcc" "app/CMakeFiles/newcpp.dir/new.cpp.obj.d"
+  "D:/gitrepos/c_compile_test_cmake/app/new.cpp" "app/CMakeFiles/newcpp.dir/new.cpp.obj" "gcc" "app/CMakeFiles/newcpp.dir/new.cpp.obj.d"
   )
 
 # Targets to which this target links.

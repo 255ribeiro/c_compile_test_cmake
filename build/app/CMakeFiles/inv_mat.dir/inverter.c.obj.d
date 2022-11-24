@@ -1,5 +1,5 @@
 app/CMakeFiles/inv_mat.dir/inverter.c.obj: \
- D:/gitrepos/c_compile_test/app/inverter.c \
+ D:/gitrepos/c_compile_test_cmake/app/inverter.c \
  D:/Apps/msys2/ucrt64/include/stdio.h \
  D:/Apps/msys2/ucrt64/include/corecrt_stdio_config.h \
  D:/Apps/msys2/ucrt64/include/corecrt.h \

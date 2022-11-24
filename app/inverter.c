@@ -94,8 +94,7 @@ randomize_mat_contents(gsl_matrix *matrix)
 }
 
 
-int
-main(void)
+int main(void)
 {
     srand(time(NULL));
 

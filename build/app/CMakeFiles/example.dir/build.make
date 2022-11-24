@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:/gitrepos/c_compile_test
+CMAKE_SOURCE_DIR = D:/gitrepos/c_compile_test_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:/gitrepos/c_compile_test/build
+CMAKE_BINARY_DIR = D:/gitrepos/c_compile_test_cmake/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/example.dir/depend.make
@@ -70,18 +70,18 @@ include app/CMakeFiles/example.dir/progress.make
 include app/CMakeFiles/example.dir/flags.make
 
 app/CMakeFiles/example.dir/example.c.obj: app/CMakeFiles/example.dir/flags.make
-app/CMakeFiles/example.dir/example.c.obj: D:/gitrepos/c_compile_test/app/example.c
+app/CMakeFiles/example.dir/example.c.obj: D:/gitrepos/c_compile_test_cmake/app/example.c
 app/CMakeFiles/example.dir/example.c.obj: app/CMakeFiles/example.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/gitrepos/c_compile_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object app/CMakeFiles/example.dir/example.c.obj"
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/example.dir/example.c.obj -MF CMakeFiles/example.dir/example.c.obj.d -o CMakeFiles/example.dir/example.c.obj -c D:/gitrepos/c_compile_test/app/example.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/gitrepos/c_compile_test_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object app/CMakeFiles/example.dir/example.c.obj"
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/example.dir/example.c.obj -MF CMakeFiles/example.dir/example.c.obj.d -o CMakeFiles/example.dir/example.c.obj -c D:/gitrepos/c_compile_test_cmake/app/example.c
 
 app/CMakeFiles/example.dir/example.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/example.dir/example.c.i"
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:/gitrepos/c_compile_test/app/example.c > CMakeFiles/example.dir/example.c.i
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:/gitrepos/c_compile_test_cmake/app/example.c > CMakeFiles/example.dir/example.c.i
 
 app/CMakeFiles/example.dir/example.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/example.dir/example.c.s"
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/gitrepos/c_compile_test/app/example.c -o CMakeFiles/example.dir/example.c.s
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/gitrepos/c_compile_test_cmake/app/example.c -o CMakeFiles/example.dir/example.c.s
 
 # Object files for target example
 example_OBJECTS = \
@@ -96,20 +96,20 @@ app/example.exe: D:/Apps/msys2/ucrt64/lib/libgsl.dll.a
 app/example.exe: D:/Apps/msys2/ucrt64/lib/libgslcblas.dll.a
 app/example.exe: app/CMakeFiles/example.dir/linkLibs.rsp
 app/example.exe: app/CMakeFiles/example.dir/objects1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/gitrepos/c_compile_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable example.exe"
-	cd D:/gitrepos/c_compile_test/build/app && "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/example.dir/objects.a
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/ar.exe qc CMakeFiles/example.dir/objects.a @CMakeFiles/example.dir/objects1
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe -g -Wl,--whole-archive CMakeFiles/example.dir/objects.a -Wl,--no-whole-archive -o example.exe -Wl,--out-implib,libexample.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/example.dir/linkLibs.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/gitrepos/c_compile_test_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable example.exe"
+	cd D:/gitrepos/c_compile_test_cmake/build/app && "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/example.dir/objects.a
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/ar.exe qc CMakeFiles/example.dir/objects.a @CMakeFiles/example.dir/objects1
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe -g -Wl,--whole-archive CMakeFiles/example.dir/objects.a -Wl,--no-whole-archive -o example.exe -Wl,--out-implib,libexample.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/example.dir/linkLibs.rsp
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/example.dir/build: app/example.exe
 .PHONY : app/CMakeFiles/example.dir/build
 
 app/CMakeFiles/example.dir/clean:
-	cd D:/gitrepos/c_compile_test/build/app && $(CMAKE_COMMAND) -P CMakeFiles/example.dir/cmake_clean.cmake
+	cd D:/gitrepos/c_compile_test_cmake/build/app && $(CMAKE_COMMAND) -P CMakeFiles/example.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/example.dir/clean
 
 app/CMakeFiles/example.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/gitrepos/c_compile_test D:/gitrepos/c_compile_test/app D:/gitrepos/c_compile_test/build D:/gitrepos/c_compile_test/build/app D:/gitrepos/c_compile_test/build/app/CMakeFiles/example.dir/DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/gitrepos/c_compile_test_cmake D:/gitrepos/c_compile_test_cmake/app D:/gitrepos/c_compile_test_cmake/build D:/gitrepos/c_compile_test_cmake/build/app D:/gitrepos/c_compile_test_cmake/build/app/CMakeFiles/example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/example.dir/depend
 

@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:/gitrepos/c_compile_test
+CMAKE_SOURCE_DIR = D:/gitrepos/c_compile_test_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:/gitrepos/c_compile_test/build
+CMAKE_BINARY_DIR = D:/gitrepos/c_compile_test_cmake/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/inv_mat.dir/depend.make
@@ -70,18 +70,18 @@ include app/CMakeFiles/inv_mat.dir/progress.make
 include app/CMakeFiles/inv_mat.dir/flags.make
 
 app/CMakeFiles/inv_mat.dir/inverter.c.obj: app/CMakeFiles/inv_mat.dir/flags.make
-app/CMakeFiles/inv_mat.dir/inverter.c.obj: D:/gitrepos/c_compile_test/app/inverter.c
+app/CMakeFiles/inv_mat.dir/inverter.c.obj: D:/gitrepos/c_compile_test_cmake/app/inverter.c
 app/CMakeFiles/inv_mat.dir/inverter.c.obj: app/CMakeFiles/inv_mat.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/gitrepos/c_compile_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object app/CMakeFiles/inv_mat.dir/inverter.c.obj"
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/inv_mat.dir/inverter.c.obj -MF CMakeFiles/inv_mat.dir/inverter.c.obj.d -o CMakeFiles/inv_mat.dir/inverter.c.obj -c D:/gitrepos/c_compile_test/app/inverter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/gitrepos/c_compile_test_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object app/CMakeFiles/inv_mat.dir/inverter.c.obj"
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT app/CMakeFiles/inv_mat.dir/inverter.c.obj -MF CMakeFiles/inv_mat.dir/inverter.c.obj.d -o CMakeFiles/inv_mat.dir/inverter.c.obj -c D:/gitrepos/c_compile_test_cmake/app/inverter.c
 
 app/CMakeFiles/inv_mat.dir/inverter.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/inv_mat.dir/inverter.c.i"
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:/gitrepos/c_compile_test/app/inverter.c > CMakeFiles/inv_mat.dir/inverter.c.i
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:/gitrepos/c_compile_test_cmake/app/inverter.c > CMakeFiles/inv_mat.dir/inverter.c.i
 
 app/CMakeFiles/inv_mat.dir/inverter.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/inv_mat.dir/inverter.c.s"
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/gitrepos/c_compile_test/app/inverter.c -o CMakeFiles/inv_mat.dir/inverter.c.s
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:/gitrepos/c_compile_test_cmake/app/inverter.c -o CMakeFiles/inv_mat.dir/inverter.c.s
 
 # Object files for target inv_mat
 inv_mat_OBJECTS = \
@@ -96,20 +96,20 @@ app/inv_mat.exe: D:/Apps/msys2/ucrt64/lib/libgsl.dll.a
 app/inv_mat.exe: D:/Apps/msys2/ucrt64/lib/libgslcblas.dll.a
 app/inv_mat.exe: app/CMakeFiles/inv_mat.dir/linkLibs.rsp
 app/inv_mat.exe: app/CMakeFiles/inv_mat.dir/objects1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/gitrepos/c_compile_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable inv_mat.exe"
-	cd D:/gitrepos/c_compile_test/build/app && "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/inv_mat.dir/objects.a
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/ar.exe qc CMakeFiles/inv_mat.dir/objects.a @CMakeFiles/inv_mat.dir/objects1
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe -g -Wl,--whole-archive CMakeFiles/inv_mat.dir/objects.a -Wl,--no-whole-archive -o inv_mat.exe -Wl,--out-implib,libinv_mat.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/inv_mat.dir/linkLibs.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/gitrepos/c_compile_test_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable inv_mat.exe"
+	cd D:/gitrepos/c_compile_test_cmake/build/app && "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/inv_mat.dir/objects.a
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/ar.exe qc CMakeFiles/inv_mat.dir/objects.a @CMakeFiles/inv_mat.dir/objects1
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/gcc.exe -g -Wl,--whole-archive CMakeFiles/inv_mat.dir/objects.a -Wl,--no-whole-archive -o inv_mat.exe -Wl,--out-implib,libinv_mat.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/inv_mat.dir/linkLibs.rsp
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/inv_mat.dir/build: app/inv_mat.exe
 .PHONY : app/CMakeFiles/inv_mat.dir/build
 
 app/CMakeFiles/inv_mat.dir/clean:
-	cd D:/gitrepos/c_compile_test/build/app && $(CMAKE_COMMAND) -P CMakeFiles/inv_mat.dir/cmake_clean.cmake
+	cd D:/gitrepos/c_compile_test_cmake/build/app && $(CMAKE_COMMAND) -P CMakeFiles/inv_mat.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/inv_mat.dir/clean
 
 app/CMakeFiles/inv_mat.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/gitrepos/c_compile_test D:/gitrepos/c_compile_test/app D:/gitrepos/c_compile_test/build D:/gitrepos/c_compile_test/build/app D:/gitrepos/c_compile_test/build/app/CMakeFiles/inv_mat.dir/DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/gitrepos/c_compile_test_cmake D:/gitrepos/c_compile_test_cmake/app D:/gitrepos/c_compile_test_cmake/build D:/gitrepos/c_compile_test_cmake/build/app D:/gitrepos/c_compile_test_cmake/build/app/CMakeFiles/inv_mat.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/inv_mat.dir/depend
 

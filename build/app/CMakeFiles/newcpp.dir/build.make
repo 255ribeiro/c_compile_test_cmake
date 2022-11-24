@@ -53,10 +53,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:/gitrepos/c_compile_test
+CMAKE_SOURCE_DIR = D:/gitrepos/c_compile_test_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:/gitrepos/c_compile_test/build
+CMAKE_BINARY_DIR = D:/gitrepos/c_compile_test_cmake/build
 
 # Include any dependencies generated for this target.
 include app/CMakeFiles/newcpp.dir/depend.make
@@ -70,18 +70,18 @@ include app/CMakeFiles/newcpp.dir/progress.make
 include app/CMakeFiles/newcpp.dir/flags.make
 
 app/CMakeFiles/newcpp.dir/new.cpp.obj: app/CMakeFiles/newcpp.dir/flags.make
-app/CMakeFiles/newcpp.dir/new.cpp.obj: D:/gitrepos/c_compile_test/app/new.cpp
+app/CMakeFiles/newcpp.dir/new.cpp.obj: D:/gitrepos/c_compile_test_cmake/app/new.cpp
 app/CMakeFiles/newcpp.dir/new.cpp.obj: app/CMakeFiles/newcpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/gitrepos/c_compile_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/newcpp.dir/new.cpp.obj"
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/CMakeFiles/newcpp.dir/new.cpp.obj -MF CMakeFiles/newcpp.dir/new.cpp.obj.d -o CMakeFiles/newcpp.dir/new.cpp.obj -c D:/gitrepos/c_compile_test/app/new.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:/gitrepos/c_compile_test_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object app/CMakeFiles/newcpp.dir/new.cpp.obj"
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT app/CMakeFiles/newcpp.dir/new.cpp.obj -MF CMakeFiles/newcpp.dir/new.cpp.obj.d -o CMakeFiles/newcpp.dir/new.cpp.obj -c D:/gitrepos/c_compile_test_cmake/app/new.cpp
 
 app/CMakeFiles/newcpp.dir/new.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/newcpp.dir/new.cpp.i"
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/gitrepos/c_compile_test/app/new.cpp > CMakeFiles/newcpp.dir/new.cpp.i
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:/gitrepos/c_compile_test_cmake/app/new.cpp > CMakeFiles/newcpp.dir/new.cpp.i
 
 app/CMakeFiles/newcpp.dir/new.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/newcpp.dir/new.cpp.s"
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/gitrepos/c_compile_test/app/new.cpp -o CMakeFiles/newcpp.dir/new.cpp.s
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:/gitrepos/c_compile_test_cmake/app/new.cpp -o CMakeFiles/newcpp.dir/new.cpp.s
 
 # Object files for target newcpp
 newcpp_OBJECTS = \
@@ -94,20 +94,20 @@ app/newcpp.exe: app/CMakeFiles/newcpp.dir/new.cpp.obj
 app/newcpp.exe: app/CMakeFiles/newcpp.dir/build.make
 app/newcpp.exe: app/CMakeFiles/newcpp.dir/linkLibs.rsp
 app/newcpp.exe: app/CMakeFiles/newcpp.dir/objects1
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/gitrepos/c_compile_test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable newcpp.exe"
-	cd D:/gitrepos/c_compile_test/build/app && "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/newcpp.dir/objects.a
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/ar.exe qc CMakeFiles/newcpp.dir/objects.a @CMakeFiles/newcpp.dir/objects1
-	cd D:/gitrepos/c_compile_test/build/app && D:/Apps/msys2/ucrt64/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/newcpp.dir/objects.a -Wl,--no-whole-archive -o newcpp.exe -Wl,--out-implib,libnewcpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/newcpp.dir/linkLibs.rsp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:/gitrepos/c_compile_test_cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable newcpp.exe"
+	cd D:/gitrepos/c_compile_test_cmake/build/app && "C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/newcpp.dir/objects.a
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/ar.exe qc CMakeFiles/newcpp.dir/objects.a @CMakeFiles/newcpp.dir/objects1
+	cd D:/gitrepos/c_compile_test_cmake/build/app && D:/Apps/msys2/ucrt64/bin/g++.exe -g -Wl,--whole-archive CMakeFiles/newcpp.dir/objects.a -Wl,--no-whole-archive -o newcpp.exe -Wl,--out-implib,libnewcpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/newcpp.dir/linkLibs.rsp
 
 # Rule to build all files generated by this target.
 app/CMakeFiles/newcpp.dir/build: app/newcpp.exe
 .PHONY : app/CMakeFiles/newcpp.dir/build
 
 app/CMakeFiles/newcpp.dir/clean:
-	cd D:/gitrepos/c_compile_test/build/app && $(CMAKE_COMMAND) -P CMakeFiles/newcpp.dir/cmake_clean.cmake
+	cd D:/gitrepos/c_compile_test_cmake/build/app && $(CMAKE_COMMAND) -P CMakeFiles/newcpp.dir/cmake_clean.cmake
 .PHONY : app/CMakeFiles/newcpp.dir/clean
 
 app/CMakeFiles/newcpp.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/gitrepos/c_compile_test D:/gitrepos/c_compile_test/app D:/gitrepos/c_compile_test/build D:/gitrepos/c_compile_test/build/app D:/gitrepos/c_compile_test/build/app/CMakeFiles/newcpp.dir/DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" D:/gitrepos/c_compile_test_cmake D:/gitrepos/c_compile_test_cmake/app D:/gitrepos/c_compile_test_cmake/build D:/gitrepos/c_compile_test_cmake/build/app D:/gitrepos/c_compile_test_cmake/build/app/CMakeFiles/newcpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : app/CMakeFiles/newcpp.dir/depend
 

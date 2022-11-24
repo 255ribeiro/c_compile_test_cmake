@@ -57,10 +57,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:/gitrepos/c_compile_test
+CMAKE_SOURCE_DIR = D:/gitrepos/c_compile_test_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:/gitrepos/c_compile_test/build
+CMAKE_BINARY_DIR = D:/gitrepos/c_compile_test_cmake/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd D:/gitrepos/c_compile_test/build && $(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test/build/CMakeFiles D:/gitrepos/c_compile_test/build/app//CMakeFiles/progress.marks
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test/build/CMakeFiles 0
+	cd D:/gitrepos/c_compile_test_cmake/build && $(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test_cmake/build/CMakeFiles D:/gitrepos/c_compile_test_cmake/build/app//CMakeFiles/progress.marks
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test_cmake/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/clean
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd D:/gitrepos/c_compile_test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd D:/gitrepos/c_compile_test_cmake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 app/CMakeFiles/inv_mat.dir/rule:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/inv_mat.dir/rule
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/inv_mat.dir/rule
 .PHONY : app/CMakeFiles/inv_mat.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ inv_mat: app/CMakeFiles/inv_mat.dir/rule
 
 # fast build rule for target.
 inv_mat/fast:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/inv_mat.dir/build.make app/CMakeFiles/inv_mat.dir/build
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/inv_mat.dir/build.make app/CMakeFiles/inv_mat.dir/build
 .PHONY : inv_mat/fast
 
 # Convenience name for target.
 app/CMakeFiles/example.dir/rule:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/example.dir/rule
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/example.dir/rule
 .PHONY : app/CMakeFiles/example.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ example: app/CMakeFiles/example.dir/rule
 
 # fast build rule for target.
 example/fast:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/example.dir/build.make app/CMakeFiles/example.dir/build
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/example.dir/build.make app/CMakeFiles/example.dir/build
 .PHONY : example/fast
 
 # Convenience name for target.
 app/CMakeFiles/newc.dir/rule:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/newc.dir/rule
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/newc.dir/rule
 .PHONY : app/CMakeFiles/newc.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ newc: app/CMakeFiles/newc.dir/rule
 
 # fast build rule for target.
 newc/fast:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newc.dir/build.make app/CMakeFiles/newc.dir/build
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newc.dir/build.make app/CMakeFiles/newc.dir/build
 .PHONY : newc/fast
 
 # Convenience name for target.
 app/CMakeFiles/newcpp.dir/rule:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/newcpp.dir/rule
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/newcpp.dir/rule
 .PHONY : app/CMakeFiles/newcpp.dir/rule
 
 # Convenience name for target.
@@ -169,7 +169,7 @@ newcpp: app/CMakeFiles/newcpp.dir/rule
 
 # fast build rule for target.
 newcpp/fast:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newcpp.dir/build.make app/CMakeFiles/newcpp.dir/build
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newcpp.dir/build.make app/CMakeFiles/newcpp.dir/build
 .PHONY : newcpp/fast
 
 example.obj: example.c.obj
@@ -177,7 +177,7 @@ example.obj: example.c.obj
 
 # target to build an object file
 example.c.obj:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/example.dir/build.make app/CMakeFiles/example.dir/example.c.obj
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/example.dir/build.make app/CMakeFiles/example.dir/example.c.obj
 .PHONY : example.c.obj
 
 example.i: example.c.i
@@ -185,7 +185,7 @@ example.i: example.c.i
 
 # target to preprocess a source file
 example.c.i:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/example.dir/build.make app/CMakeFiles/example.dir/example.c.i
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/example.dir/build.make app/CMakeFiles/example.dir/example.c.i
 .PHONY : example.c.i
 
 example.s: example.c.s
@@ -193,7 +193,7 @@ example.s: example.c.s
 
 # target to generate assembly for a file
 example.c.s:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/example.dir/build.make app/CMakeFiles/example.dir/example.c.s
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/example.dir/build.make app/CMakeFiles/example.dir/example.c.s
 .PHONY : example.c.s
 
 inverter.obj: inverter.c.obj
@@ -201,7 +201,7 @@ inverter.obj: inverter.c.obj
 
 # target to build an object file
 inverter.c.obj:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/inv_mat.dir/build.make app/CMakeFiles/inv_mat.dir/inverter.c.obj
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/inv_mat.dir/build.make app/CMakeFiles/inv_mat.dir/inverter.c.obj
 .PHONY : inverter.c.obj
 
 inverter.i: inverter.c.i
@@ -209,7 +209,7 @@ inverter.i: inverter.c.i
 
 # target to preprocess a source file
 inverter.c.i:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/inv_mat.dir/build.make app/CMakeFiles/inv_mat.dir/inverter.c.i
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/inv_mat.dir/build.make app/CMakeFiles/inv_mat.dir/inverter.c.i
 .PHONY : inverter.c.i
 
 inverter.s: inverter.c.s
@@ -217,7 +217,7 @@ inverter.s: inverter.c.s
 
 # target to generate assembly for a file
 inverter.c.s:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/inv_mat.dir/build.make app/CMakeFiles/inv_mat.dir/inverter.c.s
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/inv_mat.dir/build.make app/CMakeFiles/inv_mat.dir/inverter.c.s
 .PHONY : inverter.c.s
 
 new.obj: new.c.obj
@@ -225,7 +225,7 @@ new.obj: new.c.obj
 
 # target to build an object file
 new.c.obj:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newc.dir/build.make app/CMakeFiles/newc.dir/new.c.obj
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newc.dir/build.make app/CMakeFiles/newc.dir/new.c.obj
 .PHONY : new.c.obj
 
 new.i: new.c.i
@@ -233,7 +233,7 @@ new.i: new.c.i
 
 # target to preprocess a source file
 new.c.i:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newc.dir/build.make app/CMakeFiles/newc.dir/new.c.i
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newc.dir/build.make app/CMakeFiles/newc.dir/new.c.i
 .PHONY : new.c.i
 
 new.s: new.c.s
@@ -241,7 +241,7 @@ new.s: new.c.s
 
 # target to generate assembly for a file
 new.c.s:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newc.dir/build.make app/CMakeFiles/newc.dir/new.c.s
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newc.dir/build.make app/CMakeFiles/newc.dir/new.c.s
 .PHONY : new.c.s
 
 new.obj: new.cpp.obj
@@ -249,7 +249,7 @@ new.obj: new.cpp.obj
 
 # target to build an object file
 new.cpp.obj:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newcpp.dir/build.make app/CMakeFiles/newcpp.dir/new.cpp.obj
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newcpp.dir/build.make app/CMakeFiles/newcpp.dir/new.cpp.obj
 .PHONY : new.cpp.obj
 
 new.i: new.cpp.i
@@ -257,7 +257,7 @@ new.i: new.cpp.i
 
 # target to preprocess a source file
 new.cpp.i:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newcpp.dir/build.make app/CMakeFiles/newcpp.dir/new.cpp.i
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newcpp.dir/build.make app/CMakeFiles/newcpp.dir/new.cpp.i
 .PHONY : new.cpp.i
 
 new.s: new.cpp.s
@@ -265,7 +265,7 @@ new.s: new.cpp.s
 
 # target to generate assembly for a file
 new.cpp.s:
-	cd D:/gitrepos/c_compile_test/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newcpp.dir/build.make app/CMakeFiles/newcpp.dir/new.cpp.s
+	cd D:/gitrepos/c_compile_test_cmake/build && $(MAKE) $(MAKESILENT) -f app/CMakeFiles/newcpp.dir/build.make app/CMakeFiles/newcpp.dir/new.cpp.s
 .PHONY : new.cpp.s
 
 # Help Target
@@ -303,6 +303,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd D:/gitrepos/c_compile_test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd D:/gitrepos/c_compile_test_cmake/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

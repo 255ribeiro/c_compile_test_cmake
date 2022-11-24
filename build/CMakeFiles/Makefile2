@@ -54,10 +54,10 @@ RM = "C:/Program Files/CMake/bin/cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:/gitrepos/c_compile_test
+CMAKE_SOURCE_DIR = D:/gitrepos/c_compile_test_cmake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:/gitrepos/c_compile_test/build
+CMAKE_BINARY_DIR = D:/gitrepos/c_compile_test_cmake/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -102,14 +102,14 @@ app/clean: app/CMakeFiles/newcpp.dir/clean
 app/CMakeFiles/inv_mat.dir/all:
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/inv_mat.dir/build.make app/CMakeFiles/inv_mat.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/inv_mat.dir/build.make app/CMakeFiles/inv_mat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:/gitrepos/c_compile_test/build/CMakeFiles --progress-num=3,4 "Built target inv_mat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:/gitrepos/c_compile_test_cmake/build/CMakeFiles --progress-num=3,4 "Built target inv_mat"
 .PHONY : app/CMakeFiles/inv_mat.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/inv_mat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test_cmake/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/inv_mat.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test_cmake/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/inv_mat.dir/rule
 
 # Convenience name for target.
@@ -128,14 +128,14 @@ app/CMakeFiles/inv_mat.dir/clean:
 app/CMakeFiles/example.dir/all:
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/example.dir/build.make app/CMakeFiles/example.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/example.dir/build.make app/CMakeFiles/example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:/gitrepos/c_compile_test/build/CMakeFiles --progress-num=1,2 "Built target example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:/gitrepos/c_compile_test_cmake/build/CMakeFiles --progress-num=1,2 "Built target example"
 .PHONY : app/CMakeFiles/example.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test_cmake/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/example.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test_cmake/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/example.dir/rule
 
 # Convenience name for target.
@@ -154,14 +154,14 @@ app/CMakeFiles/example.dir/clean:
 app/CMakeFiles/newc.dir/all:
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/newc.dir/build.make app/CMakeFiles/newc.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/newc.dir/build.make app/CMakeFiles/newc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:/gitrepos/c_compile_test/build/CMakeFiles --progress-num=5,6 "Built target newc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:/gitrepos/c_compile_test_cmake/build/CMakeFiles --progress-num=5,6 "Built target newc"
 .PHONY : app/CMakeFiles/newc.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/newc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test_cmake/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/newc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test_cmake/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/newc.dir/rule
 
 # Convenience name for target.
@@ -180,14 +180,14 @@ app/CMakeFiles/newc.dir/clean:
 app/CMakeFiles/newcpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/newcpp.dir/build.make app/CMakeFiles/newcpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f app/CMakeFiles/newcpp.dir/build.make app/CMakeFiles/newcpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:/gitrepos/c_compile_test/build/CMakeFiles --progress-num=7,8 "Built target newcpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:/gitrepos/c_compile_test_cmake/build/CMakeFiles --progress-num=7,8 "Built target newcpp"
 .PHONY : app/CMakeFiles/newcpp.dir/all
 
 # Build rule for subdir invocation for target.
 app/CMakeFiles/newcpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test_cmake/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app/CMakeFiles/newcpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:/gitrepos/c_compile_test_cmake/build/CMakeFiles 0
 .PHONY : app/CMakeFiles/newcpp.dir/rule
 
 # Convenience name for target.

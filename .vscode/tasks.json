@@ -3,7 +3,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: gcc.exe arquivo de build ativo",
-            "command": "D:\\Apps\\msys2\\ucrt64\\bin\\g++.exe",
+            "command": "D:\\Apps\\msys2\\ucrt64\\bin\\gcc.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",

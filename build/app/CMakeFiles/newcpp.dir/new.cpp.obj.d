@@ -1,5 +1,5 @@
 app/CMakeFiles/newcpp.dir/new.cpp.obj: \
- D:/gitrepos/c_compile_test/app/new.cpp \
+ D:/gitrepos/c_compile_test_cmake/app/new.cpp \
  D:/Apps/msys2/ucrt64/include/c++/12.2.0/iostream \
  D:/Apps/msys2/ucrt64/include/c++/12.2.0/x86_64-w64-mingw32/bits/c++config.h \
  D:/Apps/msys2/ucrt64/include/c++/12.2.0/x86_64-w64-mingw32/bits/os_defines.h \

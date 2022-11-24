@@ -1,4 +1,5 @@
-app/CMakeFiles/newc.dir/new.c.obj: D:/gitrepos/c_compile_test/app/new.c \
+app/CMakeFiles/newc.dir/new.c.obj: \
+ D:/gitrepos/c_compile_test_cmake/app/new.c \
  D:/Apps/msys2/ucrt64/include/stdio.h \
  D:/Apps/msys2/ucrt64/include/corecrt_stdio_config.h \
  D:/Apps/msys2/ucrt64/include/corecrt.h \
